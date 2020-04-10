@@ -24,7 +24,7 @@ def send_mail():
     server.starttls()
     server.ehlo()
 
-    server.login('aishubhrani@gmail.com', 'biesudecxlufzngr')
+    server.login('aishubhrani@gmail.com', 'pass')
     subject = 'The price fell down'
     body = 'Check the amazon link https://www.amazon.in/Sony-ILCE-7M3K-Full-Frame-Mirrorless-Interchangeable/dp/B07DPSQRFF/ref=sr_1_2?keywords=sony+a7&qid=1566928063&s=gateway&sr=8-2'
 
